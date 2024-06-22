@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -10em;
+}
+
+
+h1 {
+    
+    color: #5d13de;
+    padding: 1em;
+    width: 9em;
+    text-align: center;
+    font-size: 6em;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    
+}
+
+h1:hover{
+    text-shadow: 0 0 10px #fff8;
+}
+
+
+
+body {
+    background-image: url('https://i.pinimg.com/originals/7e/04/a6/7e04a6e16c24fc6199c364ab94304f02.jpg');
+    background-color: #d9d9d9; /* Color de respaldo si la imagen no se carga */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+  
+.tarjetas {
+  width: 45%;
+}
+  
+.container ul {
+    margin:0;
+    width: 45%;
+    border-radius: 2%;
+    border: 2px solid #fff8;
+}
+
